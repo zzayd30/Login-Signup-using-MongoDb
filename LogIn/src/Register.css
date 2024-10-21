@@ -1,0 +1,92 @@
+.register_container{
+  background-image: url("pic.png");
+  color: white;
+  font-family: 'Arial', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.register {
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.4);
+  padding: 30px;
+  width: 350px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+.admin-container{
+  display: flex;
+  align-items: center;
+  gap: 140px;
+  padding-bottom: 15px;
+}
+.input-field-checkbox {
+  margin: 0; /* Ensures no extra margin is applied to the checkbox */
+}
+.input-field {
+  width: 100%;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #e8e3f5;
+  color: #333;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+.options label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #e8e3f5;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+.register-link {
+  color: #e8e3f5;
+  text-decoration: none;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}
